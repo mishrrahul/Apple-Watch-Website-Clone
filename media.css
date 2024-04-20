@@ -1,0 +1,52 @@
+/*  leptop */
+@media(min-width:300px) and (max-width:1200px){
+
+*{
+    font-size: xx-small;
+
+}
+    
+body {
+    overflow-x: hidden;
+}
+.img,.img2,.img3{
+    width: 50px;
+    height: 50px;
+    
+}
+.BRAND-detail h1,.BRAND-detail2 h1,.BRAND-detail3 h1,.BRAND-detail4 h1{
+    
+}
+
+
+
+nav {
+width: 100%;
+    display: none;
+}
+ .hero, .hero2, .hero3, .hero4, .hero5, .hero6, .hero7, .hero8, .hero9, .hero10{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    overflow: hidden;
+ }
+ h1,h2,h3,h4,h5,h6{
+    width: 648px;
+    height: 195px;
+    font-size: xx-small;
+ }
+ .brand-img{
+    width: 121px;
+    height: 157px
+ }
+ .card , .Card2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+}
