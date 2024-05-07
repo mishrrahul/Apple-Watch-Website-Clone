@@ -1,0 +1,1214 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif; ;
+}
+
+html {
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+    height:100%;
+}
+.BRAND-detail img{
+    width: 115px;
+    height: 93px;
+}
+.BRAND-detail h1{
+    color: aliceblue;
+    font-size: x-large;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #393737;
+}
+.nav-menu{
+    width: 74%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 33px;
+}
+.nav-menu img {
+    width: 20px;
+   height: 20px;
+}
+.nav-menu img a:hover{
+    color: aliceblue;
+}
+.nav-menu img:hover{
+    color: aliceblue;
+}
+
+.nav-menu a {
+    font-size: small;
+    color: rgb(176, 168, 168);
+    text-decoration: none;
+   
+}
+.nav-menu a:hover{
+    color: white;
+    
+}
+
+
+.image{
+    width: 20px;
+    height: 20px;
+}
+.image img{
+    width: 20px ;
+    height: 20px;
+}
+.hero{
+    width: 100%;
+    height: 80vh;
+    background-color: #030404;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.brand{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+.brand li {
+    width: 200px;
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.brand li img {
+    height: 50px;
+    object-fit: cover
+}
+.brand li a{
+    font-size: small;
+     width: 65px;
+     text-decoration: none;
+     color: aliceblue;
+     
+}
+.brand li a:hover{
+   color: rgb(31, 31, 238);
+}
+.text-line{
+    width: 100%;
+    height: 37px;
+    background-color: #332d2d;
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.text-line p{
+    color: aliceblue;
+}
+.text-line a {
+    text-decoration: none;
+    color: blue;
+ 
+    
+}
+.text-line a:hover{
+   color: rgb(11, 11, 239);
+   text-decoration: underline;
+}
+.BRAND-detail{
+   
+    height: 329px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.BRAND-detail h1{
+    color: aliceblue;
+    font-size: xxx-large;
+}
+.BRAND-detail h5{
+    color: aliceblue;
+    font-size: large;
+    gap: 10px;
+    margin: 10px;
+}
+.image2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+}
+.BRAND-detail img {
+    width: 186px;
+    height: 113px
+}
+.image2 h1{
+    color: aliceblue;
+}
+.img2{
+    height: 800px;
+    width: 800px;
+}
+.bou {
+    width: 68px;
+    height: 50px;
+    color: aliceblue;
+    border-radius: 73px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.link{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.link a img {
+    width: 16px;
+    height: 12px;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+.hero2{
+    width: 100%;
+    height: 100vh;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://www.apple.com/newsroom/images/2023/09/apple-introduces-the-advanced-new-apple-watch-series-9/article/Apple-Watch-S9-hero-230912_Full-Bleed-Image.jpg.large.jpg')
+   
+}
+.link-A{
+    
+    text-decoration: none;
+    color: #2997ff;
+    font-size: larger;
+   
+}
+
+.link-B{
+    
+    font-size: larger;
+    color: #2997ff;
+    text-decoration: none;
+  
+}
+.hero3{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #fafbfb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.text{
+    width: 50%;
+    height: 50vh;
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text h1{
+    width: 471px;
+    font-size: xxx-large;
+}
+.image{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.BRAND-detail2{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 49px;
+    background-color: #fafbfb;
+    flex-direction: column;
+    gap: 14px;
+
+}
+.img5{
+    width: 613px;
+    height: 664px;
+}
+.BRAND-detail3{
+ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 49px;
+    background-color: #fafbfb;
+    flex-direction: row;
+    gap: 14px;
+    width: 100%;
+
+}
+.icon{
+    width: 149px;
+    height: 93px;
+}
+.link2{
+    gap: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(23, 155, 208);
+    
+}
+.BRAND-detail2 h1{
+    color: black;
+    font-size: xxx-large;
+}
+.BRAND-detail2 h5{
+    font-size: large;
+
+}
+.bg-image{
+    width: 100%;
+    height: auto;
+    display: flex;
+   background-size: cover;
+   background-position: center;
+    background-image: url("");
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bg-img{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://www.myimaginestore.com/pub/prod-detail/Ultra2/detailpage/images/hero_ultra_medium.png?1693967200489') ;
+    background-size: cover;
+    background-position: center;
+}
+.img3{
+    width: 100%;
+    height: 750px;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+.container h1{
+    font-size: xxx-large;
+}
+.btn{
+    width: 55px;
+    height: 31px;
+    background-color: #0071e3;
+    border: none;
+    color: white;
+    border-radius: 135px;
+}
+.buy{
+    width: 156px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;display: flex;
+    flex-direction: row;
+}
+.one{
+    width: 50%;
+    height: 277px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.link2{
+    text-decoration: none;
+   color: #0071e3; 
+}
+.link2:hover{
+    text-decoration: underline;
+}
+.logo{
+    width: 139px;
+    
+}
+.two{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+
+.img4{
+    width: 50%;
+    height: 523px;
+}
+.img2 {
+    width: 128px;
+    height: 53px;
+}
+.hero4{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+
+}
+.icon2{
+    width: 193px;
+    height: 137px;
+}
+
+.image3{
+    width: 100%;
+    height: auto;
+    background-image: url("https://www.apple.com/newsroom/images/2023/09/apple-unveils-apple-watch-ultra-2/tile/Apple-Watch-Ultra-2-hero-230912.jpg.landing-big_2x.jpg");
+    background-size: cover;
+}
+
+.hero5{
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.container2{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.down{
+    width: 66%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkbh6oXtuUCGFS7Za_Xk9mhEBg6VIFJGtGlQ&usqp=CAU");
+    background-size: cover;
+    margin-top: 23px;
+   
+}
+.up{
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.logo2{
+    width: 310px;
+}
+.link3{
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #0a81b9;
+}
+.link3:hover{
+    text-decoration: underline;
+    
+}
+.title{
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+.hero6{
+    width: 100%;
+    height: 225vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero6 h1{
+    margin-top: 20px;
+    width: 198px;
+    height: 100px;
+    font-weight: 700;
+    font-size: larger;
+
+}
+.hero6 button {
+    width: 69px;
+    min-height: 34px;
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    border-radius: 44px;
+}
+.hero6 a{
+    text-decoration: none;
+ 
+    color: #07c0f3;
+}
+.hero6 h3{
+   width: 265px;
+    height: 55px;
+
+}
+.hero6 a:hover{
+    text-decoration: underline;
+}
+.title2{
+   
+   height: 523px;
+    font-size: xx-large;
+}
+.tag-line{
+    width: 139px;
+    height: 200px;
+}
+.container3{
+    width: 80%;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.brand-item{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Brand1{
+    width: 33%;
+    height: 100vh;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Brand2{
+    width: 33%;
+    height: 100vh;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Brand3{
+    width: 33%;
+    height: 100vh;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.brand-img{
+    width: 144px;
+    height: 157px;
+    object-fit: cover;
+}
+
+.BRAND-content{
+    width: 100%;
+    height: 199vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    align-items: center;
+}
+
+
+.Brand1 span{
+    width: 100px;
+    height: 193px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+}
+.BRAND-content2{
+    width: 100%;
+    height: 205vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    text-align: center;
+}
+
+
+.Brand2 span{
+    width: 100px;
+    height: 193px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+}
+.BRAND-content3{
+    width: 100%;
+    height: 199vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    align-items: center;
+}
+
+
+.Brand3 span{
+    width: 100px;
+    height: 193px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+.Brand3 span img {
+    width: 57px;
+    height: 57px;
+    object-fit: cover;
+}
+.Brand2 span img {
+    width: 57px;
+    height: 57px;
+    object-fit: cover;
+}
+.Brand1 span img {
+    width: 56px;
+    height: 57px;
+    object-fit: cover;
+}
+.brand-image{
+    width: 168px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+.Brand1 span p{
+    width: 254px;
+    height: 125px;
+    font-size: small;
+    margin-top: 10px;
+    
+}
+.Brand2 span p{
+    width: 254px;
+    height: 125px;
+    font-size: small;
+    margin-top: 10px;
+}
+.Brand3 span p{
+    width: 254px;
+    height: 125px;
+    font-size: small;
+    margin-top: 10px;
+    
+}
+/* hero7 */
+.hero7{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 755px
+}
+.container4{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.right{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: -px;
+   background-color:#f3f7f1;
+}
+.right h4{
+    margin-top: 30px;
+
+}
+.right h1 {
+    width: 446px;
+    height: 87px;
+   
+}
+.right a {
+    text-decoration: none;
+}
+.right a:hover{
+    text-decoration: underline;
+}
+.right img {
+    width: 440px
+}
+.left{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f3f7f1;
+    align-items: center;
+}
+.left h4{
+    margin-top: 30px;
+
+}
+.left h1 {
+    width: 314px;
+    height: 100px;
+    gap: 30px;
+}
+.left a {
+    text-decoration: none;
+}
+.left a:hover{
+    text-decoration: underline;
+}
+.left  img {
+    width: 440px;
+}
+.p-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.pic2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Brand3 span p{
+    width: 254px;
+    height: 125px;
+    
+}
+/* hero8 */
+.hero8{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.left2{
+    width: 50%;
+    height: 56vh;
+    display: flex;
+    background-image: url();
+    flex-direction: column;
+    background-size: cover;
+    gap: 8px;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+
+    .container5{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container5 h1{
+        width: 554px;
+        font-size: xxx-large;
+    }
+    .card2{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 71px;
+    
+    }
+    .right2{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .right2 h1{
+        width: 368px;
+    }
+    .right2 a {
+        text-decoration: none;
+    }
+    .right2 a:hover{
+        text-decoration: underline;
+    }
+    .right2 img {
+        
+        height: 400px;
+        object-fit: cover;
+        margin-top: 80px;
+        
+       
+       
+    }
+    
+    .left2 h1{
+        width: 313px;
+        font-size: xxx-large;
+        margin-bottom: 10px;
+        margin-top: -233px;
+    }
+    
+    .left2 p{
+        width: 221px;
+    }
+    .left2 a{
+        text-decoration: none;
+    }
+    .left2 a:hover{
+        text-decoration: underline;
+    }
+    .hero8{
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+    }
+   
+    
+    .hero9{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+    }
+    .container{
+        width: 80%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .one2{
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+        line-height: 1.2em;
+    }
+    .one2 img{
+        width: 82px;
+        height: 88px;
+        object-fit: cover;
+    }
+    .one2 h1{
+        width: 211px;
+    font-size: medium;
+    }
+    .one2 p {
+        width: 242px;
+    }
+    .one2 a{
+        text-decoration: none;
+        color: #06c;
+    }
+    .two2{
+        width: 33%;
+        display: flex;
+      
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.2em;
+
+    }
+    .two2 img{
+        width: 88px;
+        height: 88px;
+        object-fit: cover;
+    }
+    .two2 h1{
+        width: 115px;
+        font-size: medium;
+    }
+    .two2 p {
+        width: 242px;
+    }
+    .two2 a {
+        text-decoration: none;
+        color: #06c;
+    }
+    .three{
+        width: 33%;
+        display: flex;
+      
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.2em;
+
+    }
+    .three img{
+        width: 82px;
+    height: 88px;
+    object-fit: cover;
+    }
+    .three h1{
+        width: 211px;
+    font-size: medium;
+    }
+    .three p{
+        width: 242px;
+        line-height: 1.25;
+
+    }
+    .three a{
+        text-decoration: none;
+        color: #06c;
+    }
+        
+    
+    .hero10{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container6{
+        width: 80%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .app{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .app img {
+        width: 1059px;
+        height: 594px;
+    }
+    footer{
+        width: 100%;
+        height: 245vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 44px;
+        background-color: #f7eeee
+    }
+    .footer-content{
+        width: 80%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer p{
+        width: 1142px;
+        line-height: 1.3rem;
+        font-size: smaller;
+        
+    }
+    .last-para {
+        width: 1175px;
+        line-height: 1.3rem;
+        font-size: smaller;
+       
+        text-decoration: none;
+        color: #030404;
+    }
+    .last-para2{
+        border-top: 1px solid black;
+    }
+    .last-para a{
+        text-decoration: none;
+    }
+    .last-para a:hover{
+        text-decoration: underline;
+        color: #07c0f3;
+    }
+    .down2{
+        width: 100%;
+        height: 68vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: row;
+        margin-top: 33px;
+    }
+    .down2 a{
+        font-size: small;
+        text-decoration: none;
+        color: #3d4343;
+        line-height: 31.3px;
+    }
+    .down2 h4{
+        font-size: smaller;
+    line-height: 2.3em;
+    }
+    .down2 a:hover{
+        text-decoration: underline;
+        color: #07c0f3;
+    }
+    .four{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        border-top: 1px solid black;
+        padding-top: 20px;
+    }
+    .four img{
+        width: 11px;
+        height: 12px;
+    }
+    .footer-list{
+        width: 75%;
+        height: 28vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        list-style: none;
+        margin: 10px;
+
+    }
+    .footer-list a{
+        text-decoration: none;
+        color: #030404;
+        font-size: small;
+        line-height: 1.2rem;
+    }
+    .footer-list a:hover{
+        color: #0071e3;
+        text-decoration: underline;
+    }
+    .App{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .App img{
+        width: 100px;
+        height: 100px;
+
+    }
+    .a{
+       
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .b{
+       
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .c{
+       
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .d{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .e{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .five li{
+         font-size: smaller;
+    }
+    .Copyright{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+       
+    }
+    .India{
+        
+        margin-left: 163px;
+    }
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
